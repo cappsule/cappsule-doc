@@ -16,10 +16,10 @@ The source code of the different parts of the project are in different git
 repositories. They can be checked out with the following command lines: ::
 
     mkdir src/
-    git clone https://github.com/cappsule/hypervisor.git src/hv
-    git clone https://github.com/cappsule/userland.git src/userland
-    git clone https://github.com/cappsule/gui.git src/userland/devices/gui
-    git clone https://github.com/cappsule/tools.git tools
+    git clone https://github.com/cappsule/cappsule-hypervisor.git src/hv
+    git clone https://github.com/cappsule/cappsule-userland.git src/userland
+    git clone https://github.com/cappsule/cappsule-gui.git src/userland/devices/gui
+    git clone https://github.com/cappsule/cappsule-tools.git tools
 
 Coding style
 ~~~~~~~~~~~~

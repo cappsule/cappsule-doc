@@ -5,13 +5,13 @@ Design
 ------
 
 Cappsule is a small hypervisor (roughly 15K lines of `source code
-<https://github.com/cappsule/hypervisor>`_) designed for Linux x86-64. It has
-been heavily tested on Ubuntu 16.04, but any distro with a recent kernel should
-be able to use it. Since it relies on hardware virtualization, the CPU must
-support Intel VT-x and EPT. In order to operate, Cappsule inserts 2 kernel
-modules (``cappsule.ko`` and ``cappsule_guest.ko``). A userland `daemon
-<https://github.com/cappsule/userland>`_ is responsible for the communication
-between the userland and the kernel module.
+<https://github.com/cappsule/cappsule-hypervisor>`_) designed for Linux
+x86-64. It has been heavily tested on Ubuntu 16.04, but any distro with a recent
+kernel should be able to use it. Since it relies on hardware virtualization, the
+CPU must support Intel VT-x and EPT. In order to operate, Cappsule inserts 2
+kernel modules (``cappsule.ko`` and ``cappsule_guest.ko``). A userland `daemon
+<https://github.com/cappsule/cappsule-userland>`_ is responsible for the
+communication between the userland and the kernel module.
 
 For the record, Intel VT-x and EPT are described in the Intel® 64 and IA-32
 Architectures Software Developer’s Manual, Volumes 3C: `System Programming Guide

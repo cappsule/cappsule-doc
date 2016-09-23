@@ -12,7 +12,7 @@ Note that even if the filesystem policies are too permissive, attackers can't
 write to the host filesystem.
 
 The list of default policies can be found in the `tools repository
-<https://github.com/cappsule/tools/blob/master/policies>`_.
+<https://github.com/cappsule/cappsule-tools/blob/master/policies>`_.
 
 
 
